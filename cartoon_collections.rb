@@ -16,6 +16,7 @@ def list_dwarves(array)
   
   array.each_with_index do |dwarves, index|
     output << #{index +1}. #{dwarves}
+  end
     puts index + dwarves
   end
 end
