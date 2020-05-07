@@ -18,5 +18,5 @@ def list_dwarves(array)
     output << #{index +1}. #{dwarves}
     end
     puts output
-  end
+    end
 end
